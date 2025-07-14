@@ -715,6 +715,9 @@ html = `
 <button class="btn" id = "x" onclick="closeWindow('massScavengeSophie')">
             X
         </button>
+              <hr>
+    <center><input type="button" class="btn btnSophie" id="sendMass" onclick="readyToSend()" value="${langShinko[5]}"></center>
+    <hr>
     <table id="massScavengeSophieTable" class="vis" border="1" style="width: 100%;background-color:${backgroundColor};border-color:${borderColor}">
         <tr>
             <td colspan="10" id="massScavengeSophieTitle" style="text-align:center; width:auto; background-color:${headerColor}">
@@ -739,6 +742,8 @@ html = `
         </tr>
     </table>
     <hr>
+
+    
     <table class="vis" border="1" style="width: 100%;background-color:${backgroundColor};border-color:${borderColor}">
         <tbody>
             <tr style="background-color:${backgroundColor}">
@@ -841,9 +846,7 @@ html = `
             <td style="text-align:center; width:50%; background-color:${backgroundColor}; padding:5px;"><center><input type="button" class="btn btnSophie" id="reset" onclick="resetSettings()" value="Reset settings"></center></td>
         </tr>
     </table>
-    <hr>
-    <center><input type="button" class="btn btnSophie" id="sendMass" onclick="readyToSend()" value="${langShinko[5]}"></center>
-    <hr>
+  
     <br>
     <center>
         <p>
