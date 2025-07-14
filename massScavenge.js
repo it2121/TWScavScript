@@ -844,11 +844,11 @@ html = `
     <hr>
     <center><input type="button" class="btn btnSophie" id="sendMass" onclick="readyToSend()" value="${langShinko[5]}"></center>
     <hr>
-    <center><img id="sophieImg" class=" tooltip-delayed" title="Sophie -Shinko to Kuma-" src="https://dl.dropboxusercontent.com/s/bxoyga8wa6yuuz4/sophie2.gif" style="cursor:help; position: relative"></center>
+    <center><img id="sophieImg" class=" tooltip-delayed" title="Sophie -Shinko to Kuma-" src="" style="cursor:help; position: relative"></center>
     <br>
     <center>
         <p>
-            <font color="${titleColor}">${langShinko[6]} </font><a href="https://shinko-to-kuma.my-free.website/" style="text-shadow:-1px -1px 0 ${titleColor},1px -1px 0 ${titleColor},-1px 1px 0 ${titleColor},1px 1px 0 ${titleColor};" title="Sophie profile" target="_blank">Sophie "Shinko to Kuma"</a>
+            <font color="${titleColor}">${langShinko[6]} </font><a href="" style="text-shadow:-1px -1px 0 ${titleColor},1px -1px 0 ${titleColor},-1px 1px 0 ${titleColor},1px 1px 0 ${titleColor};" title="Sophie profile" target="_blank">Sophie "Shinko to Kuma"</a>
         </p>
     </center>
 </div>
@@ -856,7 +856,7 @@ html = `
 $(".maincell").eq(0).prepend(html);
 $("#mobileContent").eq(0).prepend(html);
 if (game_data.locale == "ar_AE") {
-    $("#sophieImg").attr("src", "https://media2.giphy.com/media/qYr8p3Dzbet5S/giphy.gif");
+    $("#sophieImg").attr("src", "");
 }
 if (is_mobile == false) {
     $("#massScavengeSophie").css("position", "fixed");
