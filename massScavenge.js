@@ -51,15 +51,15 @@ if (game_data.locale == "ro_RO") {
 if (game_data.locale == "ar_AE") {
     //arabic server
     langShinko = [
-        "Ø§Ù„Ø§ØºØ§Ø±Ø§Øª",
-        "Ø§Ø®ØªØ§Ø± Ø§Ù„ÙˆØ­Ø¯Ø§Øª Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…Ø© ÙÙ‰ Ø§Ù„Ø§ØºØ§Ø±Ø§Øª",
-        "Ø§Ø®ØªØ§Ø± Ø§Ù†ÙˆØ§Ø¹   Ø§Ù„Ø§ØºØ§Ø±Ø§Øª Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…Ø© ",
-        " Ù…Ø§ Ø§Ù„Ù…Ø¯Ù‡ Ø§Ù„Ù…Ø¯Ù‡ Ø§Ù„Ø²Ù…Ù†ÙŠÙ‡ Ø§Ù„Ù…Ø±Ø§Ø¯ Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø§ØºØ§Ø±Ø§Øª Ø¨Ù‡Ø§",
-        "Ø¶Ø¹ Ø§Ø§Ù„Ù…Ø¯Ù‡ Ù‡Ù†Ø§",
-        "Ø­Ø³Ø§Ø¨ Ø§Ù„Ù…Ø¯Ù‡ Ù„ÙƒÙ„ ØµÙØ­Ù‡ ",
-        "Creator: ",
-        "Ø§Ù„Ø§ØºØ§Ø±Ø§Øª : ØªØ±Ø³Ù„ Ù„ÙƒÙ„ 50 Ù‚Ø±ÙŠÙ‡ Ø¹Ù„Ù‰ Ø­Ø¯Ù‰ ",
-        " ØªØ´ØºÙŠÙ„ Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø© "
+          "Mass scavenging",
+    "Select unit types/ORDER to scavenge with (drag units to order)",
+    "Select categories to use",
+    "When do you want your scav runs to return (approximately)?",
+    "Runtime here",
+    "Calculate runtimes for each page",
+    "Creator: ",
+    "Mass scavenging: send per 50 villages",
+    "Launch group "
     ]
 }
 if (game_data.locale == "el_GR") {
@@ -844,7 +844,6 @@ html = `
     <hr>
     <center><input type="button" class="btn btnSophie" id="sendMass" onclick="readyToSend()" value="${langShinko[5]}"></center>
     <hr>
-    <center><img id="sophieImg" class=" tooltip-delayed" title="Sophie -Shinko to Kuma-" src="" style="cursor:help; position: relative"></center>
     <br>
     <center>
         <p>
